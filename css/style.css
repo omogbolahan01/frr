@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 16px;
+  color: hsl(219, 12%, 42%);
+  font-weight: 500;
+}
+.section__top {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 8rem;
+  color: hsl(224, 21%, 14%);
+}
+img {
+  height: 50px;
+}
+.top__one {
+  font-weight: 800;
+}
+.top__one button {
+  background: hsl(219, 85%, 26%);
+  width: 1.5rem;
+  height: 20px;
+  border: none;
+  border-radius: 4px;
+  color: hsl(0, 0%, 100%);
+}
+.top__two {
+  cursor: pointer;
+}
+#details {
+  margin: 2rem 8rem;
+}
+.dot {
+  width: 10px;
+  height: 8px;
+  background-color: hsl(1, 90%, 64%);
+  border-radius: 100%;
+  display: flex;
+}
+.dot.map {
+  position: relative;
+  left: 29rem;
+  bottom: 0.9rem;
+}
+.dot.mapper {
+  position: relative;
+  left: 12rem;
+  bottom: 0.9rem;
+}
+.dot.mapping {
+  position: relative;
+  left: 19.5rem;
+  bottom: 0.9rem;
+}
+.section__two {
+  display: flex;
+  background-color: hsl(205, 33%, 90%);
+  margin-bottom: 8px;
+  gap: 2rem;
+  padding: 1rem;
+  align-items: center;
+}
+.trial__name.active {
+  color: hsl(219, 85%, 26%);
+}
+.section___two h3 {
+  display: flex;
+  gap: 0.5rem;
+}
+.first__today {
+  font-weight: 800;
+  cursor: pointer;
+}
+.trial {
+  display: block;
+}
+.check__name {
+  display: inline-block;
+  flex-wrap: wrap;
+}
+.trial__name {
+  cursor: pointer;
+  font-weight: 800;
+  color: hsl(224, 21%, 14%);
+}
+.active {
+  color: hsl(219, 14%, 63%);
+}
+
+.stilll_m {
+  display: flex;
+  margin: 0 0.5rem;
+  position: relative;
+  top: 0.2rem;
+}
+.stilll_p {
+  font-weight: 800;
+  margin-left: 0.5rem;
+}
+.chess__image {
+  justify-content: space-around;
+}
+.chesss {
+  font-weight: 800;
+  cursor: pointer;
+}
+.chesss.active {
+  color: hsl(219, 85%, 26%);
+}
+.section__three {
+  display: flex;
+  margin-bottom: 8px;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.section___three {
+  display: flex;
+  gap: 2rem;
+}
+.section__four {
+  display: block;
+  gap: 2rem;
+  padding: 1rem;
+  align-items: center;
+}
+.section__three__shadow {
+  box-shadow: 2px 2px 2px 2px hsl(211, 68%, 94%);
+  margin-left: 8rem;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 2rem;
+  cursor: pointer;
+}
+.section--trial {
+  display: flex;
+  gap: 2rem;
+}
+.activate {
+  background-color: hsl(211, 68%, 94%);
+}
+
+@media screen and (max-width: 1030px) {
+  boby {
+    font-size: 8px;
+  }
+  #details {
+    margin: 2rem;
+  }
+  .section__top {
+    margin: 2rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .section__three__shadow {
+    margin-left: 6rem;
+  }
+}
